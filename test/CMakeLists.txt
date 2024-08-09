@@ -64,6 +64,7 @@ catch_discover_tests(
   REPORTER
   xml
   OUTPUT_DIR
+	OUTPIT_PRES
   .
   OUTPUT_PREFIX
   "constexpr."

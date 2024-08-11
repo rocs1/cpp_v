@@ -20,3 +20,7 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size)
   fmt::print("Value sum: {}, len{}\n", sum_values(Data, Size), Size);
   return 0;
 }
+{
+  fmt::print("Value sum: {}, len{}\n", sum_values(Data, Size), Size);
+  return 0;
+}
